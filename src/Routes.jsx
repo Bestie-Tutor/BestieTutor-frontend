@@ -4,6 +4,7 @@ import { Start, UserAgreement, Register, Login, Home,
     ChooseCharacter, ChooseLanguage, LearningGoal, CurrentLevel, PreferredTopic,
     MyPage, Profile } from "./pages";
 import Feedback from "./pages/Feedback";
+import Payment from "./pages/Payment";
 
 export default function AppRoutes() {
     return(
@@ -27,6 +28,7 @@ export default function AppRoutes() {
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/myPage" element={<MyPage />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/payment" element={<Payment />} />
         </Routes>
     );
 }
